@@ -1,0 +1,125 @@
+article{
+    font-family: 'Gamja Flower', cursive;
+    flex-direction: column;
+    align-items: center;
+    word-break: keep-all;
+}
+.bbt{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+.btn-group{
+    display:flex;
+    flex-direction: column;
+    word-break: keep-all;
+}
+.imgdownload{
+    display: none;
+}
+.question{
+    display: none;
+}
+.result{
+    display: none;
+}
+.calculate{
+    display: none;
+}
+.container{
+    background-image: url(./bgimg.jpg);
+}
+#img{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+h1{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: beige; 
+    word-break: keep-all;
+}
+h2{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: beige; 
+    word-break: keep-all;
+}
+h3{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(245, 245, 220, 0.95); 
+    word-break: keep-all;
+}
+h5{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: solid 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(245, 245, 220, 1); 
+    word-break: keep-all;
+}
+h6{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    border-radius: 10px;
+    border: solid 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgb(245, 226, 220, 0.85); 
+    word-break: keep-all;
+}
+.bianhua{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bianhua1{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.chem{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.goodchem{
+    margin: 0 auto;
+    margin-top: 10px ;
+    width: 250px;
+    height: 400px;
+}
+.badchem{
+    margin: 0 auto;
+    margin-top: 10px ;
+    width: 250px;
+    height: 400px;
+}

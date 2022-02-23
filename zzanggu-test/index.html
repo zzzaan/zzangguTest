@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="짱구 테스트"> 
+    <meta property="og:type" content="website"> 
+    <meta property="og:title" content="짱구 성격 유형 테스트">
+    <meta property="og:description" content="나랑 제일 비슷한 짱구 캐릭터는?">
+    <meta property="og:image" content="https://zzanggutest.netlify.app/main.png">
+    <meta property="og:url" content="https://zzanggutest.netlify.app">
+    <title>짱구 성격 유형 테스트</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">   
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8222475370189429"
+    crossorigin="anonymous"></script>
+  </head>
+
+  <body class="container">
+    <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-8222475370189429">
+</amp-auto-ads>
+    <audio autoplay loop>
+      <source src="BGM.mp3" type="audio/mpeg" >
+    </audio>
+    <article class="imgdownload">
+      <img src="/img/Azim.png" alt="">
+      <img src="/img/BuBu.png" alt="">
+      <img src="/img/ChaEnZu.png" alt="">
+      <img src="/img/ChaeSeongA.png" alt="">
+      <img src="/img/CheolSu.png" alt="">
+      <img src="/img/Dad.png" alt="">
+      <img src="/img/HunYi.png" alt="">
+      <img src="/img/MaengGu.png" alt="">
+      <img src="/img/Mom.png" alt="">
+      <img src="/img/NaMiRi.png" alt="">
+      <img src="/img/SuZi.png" alt="">
+      <img src="/img/White.png" alt="">
+      <img src="/img/WonZang.png" alt="">
+      <img src="/img/YuRi.png" alt="">
+      <img src="/img/ZzangA.png" alt="">
+      <img src="/img/ZzangGu.png" alt="">
+      <img src="/imgspecial/q1.jpg" alt="">
+      <img src="/imgspecial/q2.jpg" alt="">
+      <img src="/imgspecial/q3.jpg" alt="">
+      <img src="/imgspecial/q4.jpg" alt="">
+      <img src="/imgspecial/q5.jpg" alt="">
+      <img src="/imgspecial/q6.jpg" alt="">
+      <img src="/imgspecial/q7.jpg" alt="">
+      <img src="/imgspecial/q8.jpg" alt="">
+      <img src="/imgspecial/q9.jpg" alt="">
+      <img src="/imgspecial/q10.jpg" alt="">
+      <img src="/imgspecial/q11.jpg" alt="">
+      <img src="/imgspecial/q12.jpg" alt="">
+      <img src="/imgspecial/q13.jpg" alt="">
+      <img src="/imgspecial/q14.jpg" alt="">
+    </article>
+    
+    <article class="start">
+      <h1 class="mt-5 text-center">나랑 꼭 닮은 짱구 속 등장인물은?</h1>
+        <img src="/img/ZzangGu.png" class="bianhua mt-5" alt="">
+      <div class="bbt">
+        <button type="button" class="btn btn-warning btn-lg mt-5" onclick="start();">떡잎마을로 출발!</button>
+      </div>
+      <div class="bianhua1"><br><br><br><br><br><br><br><br><br><br><br><br>Email: zokeryc0109@gmail.com<br>Disclaimer:
+        All content is provided for fun and entertainment purposes only
+        
+        <br>WU bros. All Rights Reserved. 2021.<br><br></div>
+    </article>
+
+    <article class="question">
+      <div class="progress mt-5">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: calc(100/12*0%)" ></div>
+      </div>
+
+      <h2 id="title" class="text-center mt-3">한가한 주말 집콕중인 나,<br>창밖을 보니 떡잎마을 방범대가 보인다.
+      </h2>
+      <img id="qimg" src="/imgspecial/q1.jpg" class="bianhua" style="width: 75%;height: 75%;object-fit: contain;">
+      <input type="hidden" id="type" value="EI">
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button id="A" type="button" class="btn btn-warning mt-3 btn-lg rounded">"애들아! 좀만 기다려!" 떡잎마을 방범대에 합류한다.</button>
+        <button id="B" type="button" class="btn btn-warning mt-3 mb-5 btn-lg rounded">주말인데 좀 쉬어야지, 흰둥이랑 놀아준다.</button>
+      </div>
+
+      <input type="hidden" id="EI" value="0">
+      <input type="hidden" id="SN" value="0">
+      <input type="hidden" id="TF" value="0">
+      <input type="hidden" id="JP" value="0">
+      <input type="hidden" id="none" value="0">
+    </article>
+    <article class="calculate">
+      <div class="bianhua">
+        <h2 class="mt-5">닮은 친구 찾는 중...</h2>
+        <img src="" id="calc">
+      </div>
+    </article>
+    <article class="result">
+      <h2 id="character" class="text-center mt-5">캐릭터</h2>
+      <img id="img" class="mt-5" src="" alt="character">
+      <h5 id="explain" class="text-center mt-5">설명</h5>
+      <div class="chem">
+       <h3 class="goodchem">
+          좋은 케미
+          <div class="text-center">
+            <img id="goodimg"  src="" >
+            <h6 id="goodcharacter" class="text-center mt-5">캐릭터</h6>
+          </div>
+        </h3>
+        <h3 class="badchem">
+          안좋은 케미
+          <div class="text-center">
+            <img id="badimg" src="" >
+            <h6 id="badcharacter" class="text-center mt-5">캐릭터</h6>
+          </div>
+        </h3>
+      </div>
+      <br>
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-60619645ed2a9dea"></script> 
+      <div class="addthis_inline_share_toolbox bianhua"></div>        
+      <ins class="kakao_ad_area" style="display:none;margin-top: 10px;" 
+        data-ad-unit    = "DAN-QRgMpDd1y3FXH90J" 
+        data-ad-width   = "320" 
+        data-ad-height  = "100">
+      </ins> 
+      <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+      
+      <div class="bianhua1"><br><br><br><br>Email: zokeryc0109@gmail.com<br>Disclaimer: All content is provided for fun and entertainment purposes only
+        
+        <br>WU bros. All Rights Reserved. 2021.<br><br></div>
+    </article>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
